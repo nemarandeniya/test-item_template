@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>item management:bit project 2024</title>
+
+    <link rel="stylesheet" href="resources/bootstrap-5.3.1/css/bootstrap.min.css">
+    <script src="resources/bootstrap-5.3.1/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- container start -->
+    <div class="container-fluid mt-2"> 
+
+       <div class="card">
+        <div class="card-header bg-info text-start ">
+            <h2 class="h2 fw-bold" --bs-light>item management</h2>
+        </div>
+        <div class="card-body bg-dark text-light">
+
+            <div class="row">
+                <!-- form area -->
+                <div class="col-8">
+                    <form>
+                        <!-- item code -->
+                    <div class="row mt-2">
+                        <label for="textitemcode" class="col-3 form-label fw-bold">item code</label>
+                        <div class="col-1"> : </div>
+                        <div class="col-8"> 
+                            <input type="text" id="textitemcode" class="form-control" placeholder="Enter item code">
+                        </div>
+                    </div><br>
+                        <!-- brand / category / subcategory -->
+                    <div class="row mt-2">
+                        <label for="" class="col-4 form-laber fw-bold">Brand : </label> 
+                        <label for="" class="col-4 form-laber fw-bold">Category : </label>
+                        <label for="" class="col-4 form-laber fw-bold">Sub category : </label>
+                    </div>
+                    <div class="row mt-2">
+                     <div class="col-4">
+                        <select id="Selectitembrand" class="form-select">
+                                <option value=""selected disabled>Select Brand</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                        </select>
+                     </div>   
+                    
+                     <div class="col-4">
+                        <select id="" class="form-select">
+                            <option value=""selected disabled>Select category</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                                   </select>
+                     </div>
+                     
+                     <div class="col-4">
+                        <select id="" class="form-select">
+                            <option value=""selected disabled>Select Sub category</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                     </div>   
+                    </div><br>
+
+                    <!-- item name -->
+                    <div class="row mt-2">
+                        <label for="" class="col-3 form-label fw-bold">Item Name</label>
+                        <div class="col-1"> : </div>
+                        <div class="col-8">
+                             <input type="text" id="textitemname" class="form-control" placeholder="Enter item name">
+                        </div>     
+                    </div><br>
+
+                    <!-- purchace price -->
+                    <div class="row mt-2">
+                        <label for="" class="col-3 form-label fw-bold">Purchace price(Rs)</label>
+                        <div class="col-1"> : </div>
+                        <div class="col-8">
+                             <input type="number" id="textpurchaceprice" class="form-control" placeholder="Enter Purchace Price">
+                        </div>
+                    </div><br>
+                           
+                    <!-- sales price -->
+                    <div class="row mt-2">
+                        <label for="" class="col-3 form-label fw-bold">Salese price(Rs)</label>
+                        <div class="col-1"> : </div>
+                        <div class="col-8">
+                            <input type="number" id="textsalesprice" class="form-control" placeholder="Enter Sales Price">
+                        </div>
+                    </div><br>
+
+                    <!-- discount ratio -->
+                    <div class="mb-3 row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Discount Ratio    :</label>
+                        <div class="col-sm-10">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault">5%
+                            <input class="form-check-input" type="radio" name="flexRadioDefault">10%
+                            <input class="form-check-input" type="radio" name="flexRadioDefault">15%
+    
+    
+                        </div>
+
+                    <!-- note -->
+                    <div class="row mt-2">
+                        <label for="" class="col-3 form-label fw-bold">Note</label>
+                        <div class="col-1"> : </div>
+                        <div class="col-8">
+                            <textarea class="form-control"></textarea>
+                        </div>
+                    </div><br>
+
+                    <!-- Date -->
+                    <div class="row mt-2">
+                        <label for="" class="col-3 form-label fw-bold">Added Date</label>
+                        <div class="col-1"> : </div>
+                        <div class="col-4">
+                            <input type="date" value="23/03/2023" class="form-control">
+                        </div>
+                    </div><br>
+
+                    <!-- buttons -->
+                    <div class="row mt-2">
+                        <div class="col-3"><button class="form-control">Clear</button></div>
+                        <div class="col-3"><button class="form-control">Update</button></div>
+                        <div class="col-3"><button class="form-control">Add</button></div>  
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-3"><button class="form-control">Clear</button></div>
+                        <div class="col-3"><button class="form-control">Update</button></div>
+                        <div class="col-3"><button class="form-control">Add</button></div>  
+                    </div>
+                    <div class="row mt-2">
+                      <div class="col-3">
+                        <Button type="submit" class="form-control">Submit</Button>
+                      </div>  
+                    </div>
+
+                    </form>
+                </div>
+
+                <!-- table area -->
+                <div class="col-7">
+
+                </div>
+            </div>
+
+        </div>
+       </div>
+
+    <!-- container end -->
+    </div>
+</body>
+</html>
